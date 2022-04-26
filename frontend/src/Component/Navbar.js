@@ -25,6 +25,7 @@ import Latihan17 from "../Pages/PageLatihan/Latihan17";
 import Latihan18 from "../Pages/PageLatihan/Latihan18";
 import Latihan19 from "../Pages/PageLatihan/Latihan19";
 import Latihan20 from "../Pages/PageLatihan/Latihan20";
+import Latihan21 from "../Pages/PageLatihan/LatihanSelesai";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
@@ -81,6 +82,7 @@ function navbarHead() {
 				<Route path="/Latihan18" element={<Latihan18 />} />
 				<Route path="/Latihan19" element={<Latihan19 />} />
 				<Route path="/Latihan20" element={<Latihan20 />} />
+				<Route path="/Latihan21" element={<Latihan21 />} />
 			</Routes>
 		</Router>
 	);
